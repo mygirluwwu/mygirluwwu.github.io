@@ -1,0 +1,154 @@
+body {
+    font-size: 15pt;
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    user-select: none;
+}
+.bar {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  position: fixed;
+  box-shadow: 0.1px 0.1px 5px #CFCFCF;
+}
+.tittle {
+  width: 1px;
+  height: 25px;
+  background-color: transparent;
+  margin: auto;
+  position: absolute;
+  top: -16px;
+  left: 37%;
+}
+.tittle p {
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 10px;
+  font-family: 'Quicksand', sans-serif;
+}
+.menu {
+  width: 36px;
+  height: 36px;
+  background-color: transparent;
+  display: inline-block;
+  position: absolute;
+  left: 10px;
+  top: 7px;
+}
+.menu button {
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+  background-color: transparent;
+  background-image: url('https://telegra.ph/file/f31f6d7b6807135641c0e.png');
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+}
+.menu button:hover {
+  background-color: #E8E8E8;
+}
+.shop {
+  width: 36px;
+  height: 36px;
+  background-color: transparent;
+  display: inline-block;
+  position: absolute;
+  top: 7px;
+  right: 10px;
+}
+.shop button {
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+  border: none;
+  background-color: transparent;
+  background-image: url('https://telegra.ph/file/17df88f98c0e8a2316f46.png');
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.shop button:hover {
+  background-color: #E8E8E8;
+}/*
+.bottom {
+  width: 100%;
+  height: 50px;
+  background-color: aliceblue;
+  bottom: 0;
+  position: fixed;
+}
+.home {
+  width: 36px;
+  height: 36px;
+  background-color: red;
+  display: inline-block;
+  position: absolute;
+  bottom: 7px;
+  margin-top: 10px;
+}
+.chat {
+  width: 36px;
+  height: 36px;
+  background-color: yellow;
+  display: inline-block;
+  position: absolute;
+  bottom: 7px;
+  margin-top: 10px;
+}
+.bookmark {
+  width: 36px;
+  height: 36px;
+  background-color: green;
+  display: inline-block;
+  position: absolute;
+  bottom: 7px;
+  margin-top: 10px;
+}
+.setting {
+  width: 36px;
+  height: 36px;
+  background-color: blue;
+  display: inline-block;
+  position: absolute;
+  bottom: 7px;
+  margin-top: 10px;
+}*/
+.card {
+  width: 280px;
+  height: 180px;
+  background-color: transparent;
+  margin: auto;
+}
+.image {
+  width: 100%;
+  height: 132px;
+  background-color: transparent;
+  left: 0;
+  display: inline-box;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  overflow: hidden;
+  box-shadow: 1px 4px 10px #B5B5B5;
+}
+.love {
+  width: 100%;
+  height: 48px;
+  background-color: transparent;
+  display: inline-block;
+}
+.love button {
+  width: 100%;
+  height: 48px;
+  background-color: whitesmoke;
+  border: none;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  font-family: 'Quicksand', sans-serif;
+}
+img {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
